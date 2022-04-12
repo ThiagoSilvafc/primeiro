@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+header.importante {
+    background-color: #ccc;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding:0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header.importante h1 {
+    color: rgb(55, 54, 54);
+    font-size: 48px;
+    display: block;
+    padding-bottom: 20px;   
+}
+
+header.importante p {
+    font-size: 25px;
+    font-weight: 200;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header.importante p:hover {
+    color: rgb(58, 58, 54);
+}
+
+
+
+
