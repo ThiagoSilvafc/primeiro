@@ -12,7 +12,7 @@ body, html {
 header.importante {
     background-color: #ccc;
     width: 100%;
-    height: 250px;
+    height: 280px;
     text-align: center;
     padding:0px 40px;
     display: flex;
@@ -37,6 +37,43 @@ header.importante p {
 header.importante p:hover {
     color: rgb(58, 58, 54);
 }
+
+main.principal {
+    background-color:  rgb(246, 244, 244);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    justify-content: center;
+    font-size: 2em;
+}
+
+main.principal div.conteudo {
+    width: calc(50% - 20px);
+    background-color: rgb(198, 33, 33);
+    margin: 0px 10px;
+    padding: 40px 25px;
+    border-radius: 5px;
+    color: white;
+    
+}
+main.principal div.primeiro {
+    background-color: rgba(33, 95, 33, 0.789);
+}
+main.principal div.ultimo {
+    width: 100%; 
+    margin-top: 40px;
+    background-color: rgb(70, 69, 69);
+}
+
+@media (max-width:720px) {
+    main.principal div.conteudo{
+        width: 100%;
+        margin: 15px auto;
+    }
+}
+
 
 
 
